@@ -51,3 +51,12 @@ let discountedPrices = prices.map(price => price * 0.9);
 console.log("Discounted Prices:", discountedPrices);
 
 // Getting a discount of 10% of a given price
+
+// Task 5: Product Availability
+
+let inventory = [10, 0, 20, 10, 0];
+let availableInventory = inventory.filter(quantity => quantity > 0);
+
+console.log("Available Inventory:", availableInventory);
+
+// Filtering out quantities that are 0 or less to display only in-stock items.
