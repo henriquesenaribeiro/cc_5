@@ -88,3 +88,13 @@ function calculateTax(amount, taxRate) {
 console.log(`Tax: $${calculateTax(777, 0.09)}`);
 
 // Used a function to calculate tax and logged the result using a template literal.
+
+// Task 9: Discount Application
+
+function applyDiscount(price, discountRate) {
+    return price - (price * discountRate);
+};
+
+console.log(`Discounted Price: $${applyDiscount(777, 0.18)}`);
+
+// Created a function to apply a discount to reduce an item's price and logged the result using a template literal.
