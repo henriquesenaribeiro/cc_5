@@ -42,3 +42,12 @@ cartItems.shift();
 console.log("Items in Cart:", cartItems);
 
 // We set up a list of items in a shopping cart, then demonstrated adding and removing items using `push` and `pop` for the end of the list, as well as `unshift` and `shift` for the beginning.
+
+// Task 4: Price Adjustments
+
+let prices = [499, 799, 899];
+let discountedPrices = prices.map(price => price * 0.9);
+
+console.log("Discounted Prices:", discountedPrices);
+
+// Getting a discount of 10% of a given price
