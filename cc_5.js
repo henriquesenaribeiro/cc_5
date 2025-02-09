@@ -69,3 +69,12 @@ let totalRevenue = sales.reduce( (acc, sale) => acc + sale );
 console.log("Total Revenue:", totalRevenue);
 
 // Summing up sales to determine total revenue using the reduce and accumulate functions.
+
+// Task 7: Customer Search
+
+let customers = ["Henry", "James", "Fabi", "Jamal"];
+let foundCustomer = customers.find(customer => customer === "Fabi");
+
+console.log("Found Customer:", foundCustomer);
+
+// Using the find function, I searched the array for a specific customer and returned the result.
