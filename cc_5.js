@@ -98,3 +98,11 @@ function applyDiscount(price, discountRate) {
 console.log(`Discounted Price: $${applyDiscount(777, 0.18)}`);
 
 // Created a function to apply a discount to reduce an item's price and logged the result using a template literal.
+
+// Task 10: Loyalty Points
+
+const calculatePoints = purchaseAmount => purchaseAmount / 20;
+let points = calculatePoints(400);
+console.log(`Earned points: ${points}`);
+
+// Created a function to calculate loyalty points, awarding 20 points for every $1 spent.
