@@ -29,3 +29,16 @@ let order = {
 order.displayOrder();
 
 // Display details provided
+
+// Task 3: Shopping Cart
+
+let cartItems = ["Doorbell Camera", "Smart Locks", "Sensors"];
+
+cartItems.push("Glass break detector");
+cartItems.pop();
+cartItems.unshift("Outdoor Camera");
+cartItems.shift();
+
+console.log("Items in Cart:", cartItems);
+
+// We set up a list of items in a shopping cart, then demonstrated adding and removing items using `push` and `pop` for the end of the list, as well as `unshift` and `shift` for the beginning.
