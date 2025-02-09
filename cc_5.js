@@ -78,3 +78,13 @@ let foundCustomer = customers.find(customer => customer === "Fabi");
 console.log("Found Customer:", foundCustomer);
 
 // Using the find function, I searched the array for a specific customer and returned the result.
+
+// Task 8: Tax Calculation
+
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+
+console.log(`Tax: $${calculateTax(777, 0.09)}`);
+
+// Used a function to calculate tax and logged the result using a template literal.
